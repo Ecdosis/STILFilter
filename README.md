@@ -2,12 +2,12 @@ RATIONALE
 =========
 
 When importing XML files into the ecdosis system the XML is first split 
-into layers, so removing tags like <add>, <del>, <abbrev>, <expan> etc., 
+into layers, so removing tags like add, del, abbrev, expan etc., 
 that is, all those that cause the base text to split into alternatives. 
 And those alternatives are placed into separate layers of the one 
 document. The layers are treated as sub-versions of the main versions of 
-a work. This leaves, however, much markup such as <hi 
-rend="it">...</hi>, which means "put this in italics". Such elements are 
+a work. This leaves, however, much markup such as hi 
+rend="it".../hi, which means "put this in italics". Such elements are 
 split into base text and standoff markup, called STIL (standard interval 
 markup). This defines a property called "hi" for the text with a range 
 in the base text, and an "annotation" with a key-value pair 
@@ -15,7 +15,7 @@ in the base text, and an "annotation" with a key-value pair
 to edit the text plus its markup using the simplified MML (minimal 
 markup languages) editor (see MML project), it is necessary to convert 
 the raw XML property names and annotations into simple property names. So 
-<hi rend="it"> becomes "italics". This can then be attached to an MML 
+hi rend="it" becomes "italics". This can then be attached to an MML 
 markup tag such as "*" and we can produce the "italics" property in the 
 editor by typing *word* to make "word" italics. This greatly simplies 
 transcription. No more angle-brackets!!
