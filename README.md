@@ -1,5 +1,5 @@
 RATIONALE
-=========
+---------
 
 When importing XML files into the ecdosis system the XML is first split 
 into layers, so removing tags like add, del, abbrev, expan etc., that 
@@ -26,24 +26,24 @@ mml.filters.{docid}, where {docid} is normally the docid of the entire
 project, such as "english/harpur". So the full path name for the Harpur 
 edition filter will be mml.filters.english.harpur.Filter. Now when the 
 user asks the MML service for the version of a document recently 
-uploaded from XML, say english/harpur/h642/h642j, the merged corcode for 
-english/harpur/h642 will be fetched from the Mongo database. If the BSON 
-document contains the key "converted": true then the relevant version 
-(h642j) will be retrieved from the corcode. But if not, the MML service 
-will extract all versions from the corcode and then attempt to 
-instantiate an instance of the class mml.filters.english.harpur.Filter. 
-If this succeeds (and the filters can be stored in a separate jar, 
-simply added to the /lib folder of the webapp) then the filter will be 
-created (call to Filter()), and its translate method called on each STIL 
-document in the original corcode. The result will then be repacked as a 
-new corcode, which will replace the old one, and the "convert":true key 
-will be set in the BSON file. Meanwhile, the converted STIL document can 
-be passed onto the MML service for conversion to the MML language 
-defined by the dialect specified in the dialects collection with the 
-docid: "english/harpur".
+uploaded from XML, e.g. with the docid: english/harpur/h642/h642j, the 
+merged corcode for english/harpur/h642 will be fetched from the Mongo 
+database. If the BSON document contains the key "converted": true then 
+the relevant version (h642j) will be retrieved from the corcode. But if 
+not, the MML service will extract all versions from the corcode and then 
+attempt to instantiate an instance of the class 
+mml.filters.english.harpur.Filter. If this succeeds (and the filters can 
+be stored in a separate jar, simply added to the /lib folder of the 
+webapp) then the filter will be created (call to Filter()), and its 
+translate method called on each STIL document in the original corcode. 
+The result will then be repacked as a new corcode, which will replace 
+the old one, and the "convert":true key will be set in the BSON file. 
+Meanwhile, the converted STIL document can be passed onto the MML 
+service for conversion to the MML language defined by the dialect 
+specified in the dialects collection with the docid: "english/harpur".
 
 EXTENSIONS
-==========
+----------
 
 At the moment the STILFilter library only contains a translator for the 
 Harpur edition. To add new formats define a class that implements 
@@ -61,7 +61,7 @@ excellent customisability. Simple tags can be converted via a table, and
 more complex ones like pg (page-break) can be handled separately.
 
 USING
-=====
+-----
 
 Just drop the STILFilter.jar file into your installation of the MML 
 service lib folder and restart the service via Tomcat. If you named your 
