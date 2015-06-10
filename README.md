@@ -60,6 +60,11 @@ easy, even if it is a bit specific to projects. But it provides
 excellent customisability. Simple tags can be converted via a table, and 
 more complex ones like pg (page-break) can be handled separately.
 
+Note that in STIL offsets are *relative* to the *preceding* property 
+start OR the start of the file (whichever comes first going backwards). 
+Also offsets are in bytes NOT characters (so beware of UTF-8 encoding!). 
+Unless you are modifying the source text you don't need to change these.
+
 USING
 -----
 
