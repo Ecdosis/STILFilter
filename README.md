@@ -81,3 +81,14 @@ java JSCompactor.jar table.json
 
 Copy the result from the terminal. it screws up the end a bit but it is 
 usable.
+
+SAMPLE FILES
+------------
+
+The files beginning with A89#h642d* are example files from the Harpur 
+project. They contain a source XML file, and the STIL and plain text 
+split via the splitter program in the standoff repository on 
+AustESE-Infrastructure. They are just examples, and contain \<add\> and 
+\<del\> codes etc because they have not bee passed first through the 
+splitter in calliope, which is the core import facility for ecdosis. But 
+it works as an example.
