@@ -79,5 +79,5 @@ for inclusion into a Java program. Invoke it thus:
 
 java JSCompactor.jar table.json
 
-Copy the result fromt he terminal. it screws up the end a bit but it is 
+Copy the result from the terminal. it screws up the end a bit but it is 
 usable.

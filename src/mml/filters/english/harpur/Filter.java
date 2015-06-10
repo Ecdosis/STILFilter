@@ -1,8 +1,22 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This file is part of STILFilter, which is part of the ecdosis suite of 
+ * programs, and is required by the MML service.
+ *
+ *  STILFilter is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  STILFilter is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with STILFilter.  If not, see <http://www.gnu.org/licenses/>.
+ *  (c) copyright Desmond Schmidt 2015
  */
+
 package mml.filters.english.harpur;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
@@ -19,55 +33,62 @@ import java.io.File;
  */
 public class Filter implements mml.filters.Filter
 {
-    /** deals with simple property names and attributes */
-    static String table = "[{\"from\":{\"name\":\"div\",\"key\":\"type\","
-        +"\"value\":\"titlepage\"},\"to\":\"titlepage\"}, {\"from\":{\"name"
-        +"\":\"div\",\"key\":\"type\",\"value\":\"dedication\"},\"to\":"
-        +"\"dedication\"}, {\"from\":{\"name\":\"div\",\"key\":\"type\","
-        +"\"value\":\"poempart\"},\"to\":\"poempart\"}, {\"from\":{\"name"
-        +"\":\"div\",\"key\":\"type\",\"value\":\"song\"},\"to\":\"song\"},"
-        +"{\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"colophon\"}"
-        +",\"to\":\"colophon\"}, {\"from\":{\"name\":\"head\",\"key\":\"type"
-        +"\",\"value\":\"title\"},\"to\":\"title\"}, {\"from\":{\"name\":"
-        +"\"head\",\"key\":\"type\",\"value\":\"subtitle\"},\"to\":\"subtit"
-        +"le\"}, {\"from\":{\"name\":\"head\",\"key\":\"type\",\"value\":\"p"
-        +"arthead\"},\"to\":\"parthead\"}, {\"from\":{\"name\":\"head\"},\"to"
-        +"\":\"head\"}, {\"from\":{\"name\":\"lg\"},\"to\":\"stanza\"}, {\"fr"
-        +"om\":{\"name\":\"p\"},\"to\":\"para\"}, {\"from\":{\"name\":\"trail"
-        +"er\"},\"to\":\"trailer\"}, {\"from\":{\"name\":\"fw\"},\"to\":\"fi"
-        +"rstword\"}, {\"from\":{\"name\":\"q\"},\"to\":\"quote\"}, {\"from"
-        +"\":{\"name\":\"l\"},\"to\":\"line\"}, {\"from\":{\"name\":\"line"
-        +"\",\"key\":\"rend\",\"value\":\"indent1\"},\"to\":\"line-indent1\"},"
-        +"{\"from\":{\"name\":\"line\",\"key\":\"rend\",\"value\":\"indent2\"}"
-        +",\"to\":\"line-indent2\"}, {\"from\":{\"name\":\"line\",\"key\":"
-        +"\"rend\",\"value\":\"indent3\"},\"to\":\"line-indent3\"}, {\"from"
-        +"\":{\"name\":\"line\",\"key\":\"rend\",\"value\":\"indent4\"},\"to"
-        +"\":\"line-indent4\"}, {\"from\":{\"name\":\"line\",\"key\":\"rend"
-        +"\",\"value\":\"indent5\"},\"to\":\"line-indent5\"}, {\"from\":{\"na"
-        +"me\":\"line\",\"key\":\"part\",\"value\":\"F\"},\"to\":\"line-fina"
-        +"l\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"ul\"},"
-        +"\"to\":\"underlined\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\","
-        +"\"value\":\"sc\"},\"to\":\"smallcaps\"}, {\"from\":{\"name\":\"hi"
-        +"\",\"key\":\"rend\",\"value\":\"b\"},\"to\":\"bold\"}, {\"from\":{"
-        +"\"name\":\"hi\",\"key\":\"rend\",\"value\":\"it\"},\"to\":\"italics"
-        +"\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"dul\"},"
-        +"\"to\":\"superscript\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend"
-        +"\",\"value\":\"ss\"},\"to\":\"underlined\"}, {\"from\":{\"name\":\"h"
-        +"i\",\"key\":\"rend\",\"value\":\"erasure\"},\"to\":\"erased\"}, {\"fr"
-        +"om\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"bl\"},\"to\":\"b"
-        +"lack-letter\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"valu"
-        +"e\":\"pencil\"},\"to\":\"pencil\"}, {\"from\":{\"name\":\"hi\",\"ke"
-        +"y\":\"rend\",\"value\":\"del-pencil\"},\"to\":\"del-pencil\"}, {\"f"
-        +"rom\":{\"name\":\"emph\"},\"to\":\"emphasis\"}, {\"from\":{\"name"
-        +"\":\"unclear\"},\"to\":\"unclear\"}, {\"from\":{\"name\":\"expan\"},"
-        +"\"to\":\"expanded\"}, {\"from\":{\"name\":\"metamark\"},\"to\":\"met"
-        +"amark\"}, {\"from\":{\"name\":\"author\"},\"to\":\"author\"}, {\"fr"
-        +"om\":{\"name\":\"date\"},\"to\":\"date\"}, {\"from\":{\"name\":\"si"
-        +"c\"},\"to\":\"sic\"}, {\"from\":{\"name\":\"divider\",\"key\":\"typ"
-        +"e\",\"value\":\"single\"},\"to\":\"divider-single\"}, {\"from\":{\"n"
-        +"ame\":\"divider\",\"key\":\"type\",\"value\":\"diamond\"},\"to\":\"d"
-        +"ivider-diamond\"}, {\"from\":{\"name\":\"divider\",\"key\":\"type\","
-        +"\"value\":\"double\"},\"to\":\"divider-double\"}]";
+    /** specifies how to deal with simple property names and attributes */
+    // source in table.json. convert with JSCompacter
+    static String table = 
+    "{ [{\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"t"
+    +"itlepage\"},\"to\":\"titlepage\"}, {\"from\":{\"name\":\"div"
+    +"\",\"key\":\"type\",\"value\":\"dedication\"},\"to\":\"dedic"
+    +"ation\"}, {\"from\":{\"name\":\"div\",\"key\":\"type\",\"val"
+    +"ue\":\"poempart\"},\"to\":\"poempart\"}, {\"from\":{\"name\""
+    +":\"div\",\"key\":\"type\",\"value\":\"song\"},\"to\":\"song\""
+    +"}, {\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\""
+    +"colophon\"},\"to\":\"colophon\"}, {\"from\":{\"name\":\"hea"
+    +"d\",\"key\":\"type\",\"value\":\"title\"},\"to\":\"title\"},"
+    +" {\"from\":{\"name\":\"head\",\"key\":\"type\",\"value\":\"s"
+    +"ubtitle\"},\"to\":\"subtitle\"}, {\"from\":{\"name\":\"head\""
+    +",\"key\":\"type\",\"value\":\"parthead\"},\"to\":\"parthead"
+    +"\"}, {\"from\":{\"name\":\"head\"},\"to\":\"head\"}, {\"from"
+    +"\":{\"name\":\"lg\"},\"to\":\"stanza\"}, {\"from\":{\"name\""
+    +":\"p\"},\"to\":\"para\"}, {\"from\":{\"name\":\"trailer\"},\""
+    +"to\":\"trailer\"}, {\"from\":{\"name\":\"fw\"},\"to\":\"fir"
+    +"stword\"}, {\"from\":{\"name\":\"q\"},\"to\":\"quote\"}, {\""
+    +"from\":{\"name\":\"l\"},\"to\":\"line\"}, {\"from\":{\"name\""
+    +":\"line\",\"key\":\"rend\",\"value\":\"indent1\"},\"to\":\""
+    +"line-indent1\"}, {\"from\":{\"name\":\"line\",\"key\":\"rend"
+    +"\",\"value\":\"indent2\"},\"to\":\"line-indent2\"}, {\"from\""
+    +":{\"name\":\"line\",\"key\":\"rend\",\"value\":\"indent3\"}"
+    +",\"to\":\"line-indent3\"}, {\"from\":{\"name\":\"line\",\"ke"
+    +"y\":\"rend\",\"value\":\"indent4\"},\"to\":\"line-indent4\"}"
+    +", {\"from\":{\"name\":\"line\",\"key\":\"rend\",\"value\":\""
+    +"indent5\"},\"to\":\"line-indent5\"}, {\"from\":{\"name\":\"l"
+    +"ine\",\"key\":\"part\",\"value\":\"F\"},\"to\":\"line-final\""
+    +"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\""
+    +"ul\"},\"to\":\"underlined\"}, {\"from\":{\"name\":\"hi\",\"k"
+    +"ey\":\"rend\",\"value\":\"sc\"},\"to\":\"smallcaps\"}, {\"fr"
+    +"om\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"b\"},\"to"
+    +"\":\"bold\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\""
+    +"value\":\"it\"},\"to\":\"italics\"}, {\"from\":{\"name\":\"h"
+    +"i\",\"key\":\"rend\",\"value\":\"dul\"},\"to\":\"superscript"
+    +"\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\""
+    +"ss\"},\"to\":\"underlined\"}, {\"from\":{\"name\":\"hi\",\""
+    +"key\":\"rend\",\"value\":\"erasure\"},\"to\":\"erased\"}, {\""
+    +"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"bl\"},"
+    +"\"to\":\"black-letter\"}, {\"from\":{\"name\":\"hi\",\"key\""
+    +":\"rend\",\"value\":\"pencil\"},\"to\":\"pencil\"}, {\"from\""
+    +":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"del-pencil\""
+    +"},\"to\":\"del-pencil\"}, {\"from\":{\"name\":\"emph\"},\"to"
+    +"\":\"emphasis\"}, {\"from\":{\"name\":\"unclear\"},\"to\":\""
+    +"unclear\"}, {\"from\":{\"name\":\"expan\"},\"to\":\"expanded"
+    +"\"}, {\"from\":{\"name\":\"metamark\"},\"to\":\"metamark\"},"
+    +" {\"from\":{\"name\":\"author\"},\"to\":\"author\"}, {\"from"
+    +"\":{\"name\":\"date\"},\"to\":\"date\"}, {\"from\":{\"name\""
+    +":\"sic\"},\"to\":\"sic\"}, {\"from\":{\"name\":\"divider\",\""
+    +"key\":\"type\",\"value\":\"single\"},\"to\":\"divider-singl"
+    +"e\"}, {\"from\":{\"name\":\"divider\",\"key\":\"type\",\"val"
+    +"ue\":\"diamond\"},\"to\":\"divider-diamond\"}, {\"from\":{\""
+    +"name\":\"divider\",\"key\":\"type\",\"value\":\"double\"},\""
+    +"to\":\"divider-double\"}] } \n";
     /** the quick lookup map */
     static HashMap<String,ArrayList> map;
     /**
@@ -76,6 +97,7 @@ public class Filter implements mml.filters.Filter
     static
     {
         map = new HashMap<String,ArrayList>();
+        // each element name can combine with various attributes or with none
         JSONArray array = (JSONArray)JSONValue.parse( table );
         for ( Object item : array )
         {
@@ -153,7 +175,7 @@ public class Filter implements mml.filters.Filter
     }
     /**
      * Extract the page reference from a pg range
-     * @param annotations the annotaitons of the pg range (maybe n as well)
+     * @param annotations the annotations of the pg range (maybe n as well)
      * @return the page ref devoid of url info, path etc
      */
     private String getPageRef( JSONArray annotations )
@@ -186,7 +208,7 @@ public class Filter implements mml.filters.Filter
         int loc = ((Long)range.get("reloff")).intValue();
         // offset is the latest adjustment due to inserted page reference
         loc += offset;
-        // because offfsets are relative, we can reset to 0 after use
+        // because offsets are relative, we can reset to 0 after use
         offset = 0;
         newRange.put( "name", newName );
         newRange.put( "reloff", loc);
@@ -194,6 +216,13 @@ public class Filter implements mml.filters.Filter
         // NB we drop any attributes: not needed in MML
         destRanges.add( newRange );
     }
+    /**
+     * Append some data from the source text to the modified text
+     * @param text the original text byte array
+     * @param from the offset in text to copy from
+     * @param len the length of the copied text in bytes
+     * @throws Exception 
+     */
     private void appendToText(byte[] text, int from, int len) throws Exception
     {
         byte[] chunk = new byte[len];
@@ -273,6 +302,12 @@ public class Filter implements mml.filters.Filter
                 appendToText( text, lastReadPos, pos-lastReadPos );
             return dest;
     }
+    /**
+     * Append something to the file name before the extension
+     * @param orig original file name
+     * @param suffix the "suffix" to add
+     * @return the modified file name
+     */
     private static String appendToFileName( String orig, String suffix )
     {
         String lhs,rhs;
@@ -282,13 +317,19 @@ public class Filter implements mml.filters.Filter
             lhs = orig.substring(0,index);
             rhs = orig.substring(index);
         }
-        else
+        else    // no extension
         {
             lhs = orig;
             rhs = "";
         }
         return lhs+"-"+suffix+rhs;
     }
+    /**
+     * Debug: write out result
+     * @param orig the original file name for conversion
+     * @param data the data of the new file
+     * @throws Exception 
+     */
     static void writeOut( String orig, String data ) throws Exception
     {
         File out = new File(appendToFileName(orig,"converted"));
