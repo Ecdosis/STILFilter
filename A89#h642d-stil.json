@@ -1,0 +1,5537 @@
+{
+  "style": "TEI",
+  "ranges": [
+  {
+    "name": "TEI",
+    "reloff": 0,
+    "len": 26358
+  }
+,
+  {
+    "name": "body",
+    "reloff": 0,
+    "len": 26358
+  }
+,
+  {
+    "name": "text",
+    "reloff": 0,
+    "len": 26358
+  }
+,
+  {
+    "name": "note",
+    "reloff": 0,
+    "len": 45,
+    "annotations": [ { "resp": "MJS" } ]
+  }
+,
+  {
+    "name": "head",
+    "reloff": 46,
+    "len": 23,
+    "annotations": [ { "type": "title" } ]
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "150" },{ "facs": "/corpix/english/harpur/h642/h642d/154" } ]
+  }
+,
+  {
+    "name": "div",
+    "reloff": 24,
+    "len": 12559,
+    "annotations": [ { "type": "poempart" } ]
+  }
+,
+  {
+    "name": "head",
+    "reloff": 0,
+    "len": 7,
+    "annotations": [ { "type": "parthead" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 8,
+    "len": 1070
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 55
+  }
+,
+  {
+    "name": "del",
+    "reloff": 3,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 10
+  }
+,
+  {
+    "name": "del",
+    "reloff": 16,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 55
+  }
+,
+  {
+    "name": "del",
+    "reloff": 20,
+    "len": 17
+  }
+,
+  {
+    "name": "add",
+    "reloff": 18,
+    "len": 16
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 41
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 57
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 10
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 45
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "151" },{ "facs": "/corpix/english/harpur/h642/h642d/155" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 34
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 18
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 19,
+    "len": 475
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 18,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 44
+  }
+,
+  {
+    "name": "del",
+    "reloff": 14,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 31,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 43
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 43
+  }
+,
+  {
+    "name": "del",
+    "reloff": 6,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 3
+  }
+,
+  {
+    "name": "del",
+    "reloff": 19,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 10,
+    "len": 16
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 17,
+    "len": 1554
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 15,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 56
+  }
+,
+  {
+    "name": "del",
+    "reloff": 16,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 2,
+    "len": 4
+  }
+,
+  {
+    "name": "del",
+    "reloff": 25,
+    "len": 6
+  }
+,
+  {
+    "name": "l",
+    "reloff": 14,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 37
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "152" },{ "facs": "/corpix/english/harpur/h642/h642d/156" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 39
+  }
+,
+  {
+    "name": "del",
+    "reloff": 23,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 44
+  }
+,
+  {
+    "name": "del",
+    "reloff": 5,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 20,
+    "len": 5
+  }
+,
+  {
+    "name": "add",
+    "reloff": 6,
+    "len": 12
+  }
+,
+  {
+    "name": "del",
+    "reloff": 27,
+    "len": 6
+  }
+,
+  {
+    "name": "l",
+    "reloff": 7,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 13,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 40
+  }
+,
+  {
+    "name": "del",
+    "reloff": 21,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 71
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "153" },{ "facs": "/corpix/english/harpur/h642/h642d/157" } ]
+  }
+,
+  {
+    "name": "add",
+    "reloff": 22,
+    "len": 25
+  }
+,
+  {
+    "name": "del",
+    "reloff": 26,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 2
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 40
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 70
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 22
+  }
+,
+  {
+    "name": "add",
+    "reloff": 23,
+    "len": 24
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 13
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 13
+  }
+,
+  {
+    "name": "l",
+    "reloff": 14,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 35
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 36,
+    "len": 294
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 42,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 32
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 46
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 47,
+    "len": 685
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 45,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 36,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 6,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 48
+  }
+,
+  {
+    "name": "del",
+    "reloff": 25,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 39
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "154" },{ "facs": "/corpix/english/harpur/h642/h642d/158" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 39
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 40,
+    "len": 739
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 37,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 34
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 52
+  }
+,
+  {
+    "name": "l",
+    "reloff": 53,
+    "len": 23
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 24,
+    "len": 727
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 23,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "155" },{ "facs": "/corpix/english/harpur/h642/h642d/159" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 47
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 42,
+    "len": 5
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 5,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 6,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 42
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 28,
+    "len": 3
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 3,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 25
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 26,
+    "len": 307
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 10,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 11,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 48
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 42,
+    "len": 5
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 5,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 7,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 39
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "156" },{ "facs": "/corpix/english/harpur/h642/h642d/160" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 46
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 47,
+    "len": 1317
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 37,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 27,
+    "len": 5
+  }
+,
+  {
+    "name": "add",
+    "reloff": 6,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 20,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 7,
+    "len": 48
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 8
+  }
+,
+  {
+    "name": "del",
+    "reloff": 32,
+    "len": 10
+  }
+,
+  {
+    "name": "add",
+    "reloff": 11,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 6,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 35
+  }
+,
+  {
+    "name": "del",
+    "reloff": 20,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 55
+  }
+,
+  {
+    "name": "del",
+    "reloff": 28,
+    "len": 5
+  }
+,
+  {
+    "name": "add",
+    "reloff": 11,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 69
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 19
+  }
+,
+  {
+    "name": "add",
+    "reloff": 20,
+    "len": 21
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 14,
+    "len": 7
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 7,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 18,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 34
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 4,
+    "len": 6
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 34
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "157" },{ "facs": "/corpix/english/harpur/h642/h642d/161" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 72
+  }
+,
+  {
+    "name": "del",
+    "reloff": 15,
+    "len": 24
+  }
+,
+  {
+    "name": "add",
+    "reloff": 25,
+    "len": 32
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 51
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 33
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 34,
+    "len": 891
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 18,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 47
+  }
+,
+  {
+    "name": "del",
+    "reloff": 19,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 40
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "158" },{ "facs": "/corpix/english/harpur/h642/h642d/162" } ]
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 27,
+    "len": 3
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 3,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 14,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 33
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 34,
+    "len": 390
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 17,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 46
+  }
+,
+  {
+    "name": "del",
+    "reloff": 3,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 8
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 33
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 34,
+    "len": 869
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 15,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 42
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "159" },{ "facs": "/corpix/english/harpur/h642/h642d/163" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 50
+  }
+,
+  {
+    "name": "l",
+    "reloff": 51,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 51
+  }
+,
+  {
+    "name": "l",
+    "reloff": 52,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 23,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 2
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 51
+  }
+,
+  {
+    "name": "l",
+    "reloff": 52,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 49
+  }
+,
+  {
+    "name": "del",
+    "reloff": 20,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 9,
+    "len": 11
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 14
+  }
+,
+  {
+    "name": "add",
+    "reloff": 15,
+    "len": 11
+  }
+,
+  {
+    "name": "del",
+    "reloff": 18,
+    "len": 11
+  }
+,
+  {
+    "name": "add",
+    "reloff": 12,
+    "len": 10
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 41
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 24
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 25,
+    "len": 984
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 14,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 52
+  }
+,
+  {
+    "name": "del",
+    "reloff": 22,
+    "len": 9
+  }
+,
+  {
+    "name": "add",
+    "reloff": 10,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 33
+  }
+,
+  {
+    "name": "l",
+    "reloff": 34,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 46
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "160" },{ "facs": "/corpix/english/harpur/h642/h642d/164" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 38
+  }
+,
+  {
+    "name": "del",
+    "reloff": 23,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 57
+  }
+,
+  {
+    "name": "del",
+    "reloff": 22,
+    "len": 17
+  }
+,
+  {
+    "name": "add",
+    "reloff": 18,
+    "len": 17
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 44
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 45,
+    "len": 1191
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 36,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 55
+  }
+,
+  {
+    "name": "del",
+    "reloff": 17,
+    "len": 14
+  }
+,
+  {
+    "name": "add",
+    "reloff": 15,
+    "len": 23
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 40
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 29
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 38
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "161" },{ "facs": "/corpix/english/harpur/h642/h642d/165" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 43
+  }
+,
+  {
+    "name": "del",
+    "reloff": 36,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 8,
+    "len": 38
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 15,
+    "len": 3
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 3,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 43
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 0,
+    "len": 3
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 3,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 52
+  }
+,
+  {
+    "name": "l",
+    "reloff": 53,
+    "len": 41
+  }
+,
+  {
+    "name": "del",
+    "reloff": 33,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 9,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 37
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 38,
+    "len": 1044
+  }
+,
+  {
+    "name": "head",
+    "reloff": 0,
+    "len": 9
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 10,
+    "len": 168
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 23,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 16,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "162" },{ "facs": "/corpix/english/harpur/h642/h642d/166" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 16,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 16,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 17,
+    "len": 280
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 22,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 23,
+    "len": 23,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 55
+  }
+,
+  {
+    "name": "l",
+    "reloff": 56,
+    "len": 34,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 31,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 32,
+    "len": 19,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 20,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 27,
+    "len": 344
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 21,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 22,
+    "len": 23,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 21,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 22,
+    "len": 25,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 26,
+    "len": 16,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 19,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 49
+  }
+,
+  {
+    "name": "del",
+    "reloff": 17,
+    "len": 8
+  }
+,
+  {
+    "name": "add",
+    "reloff": 20,
+    "len": 8
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 9,
+    "len": 3
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 3,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 4,
+    "len": 56
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "163" },{ "facs": "/corpix/english/harpur/h642/h642d/167" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 57,
+    "len": 40
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 41,
+    "len": 239
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 26,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 14,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 20,
+    "annotations": [ { "rend": "indent2" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 23,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 52
+  }
+,
+  {
+    "name": "l",
+    "reloff": 53,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "div",
+    "reloff": 27,
+    "len": 12893,
+    "annotations": [ { "type": "poempart" } ]
+  }
+,
+  {
+    "name": "head",
+    "reloff": 0,
+    "len": 8,
+    "annotations": [ { "type": "parthead" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 9,
+    "len": 504
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 52
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 7
+  }
+,
+  {
+    "name": "l",
+    "reloff": 53,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 63
+  }
+,
+  {
+    "name": "del",
+    "reloff": 25,
+    "len": 19
+  }
+,
+  {
+    "name": "add",
+    "reloff": 20,
+    "len": 18
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 60
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 10
+  }
+,
+  {
+    "name": "add",
+    "reloff": 11,
+    "len": 10
+  }
+,
+  {
+    "name": "del",
+    "reloff": 38,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 12,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 3,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 3
+  }
+,
+  {
+    "name": "del",
+    "reloff": 9,
+    "len": 7
+  }
+,
+  {
+    "name": "add",
+    "reloff": 8,
+    "len": 5
+  }
+,
+  {
+    "name": "del",
+    "reloff": 13,
+    "len": 6
+  }
+,
+  {
+    "name": "add",
+    "reloff": 7,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 49
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "164" },{ "facs": "/corpix/english/harpur/h642/h642d/168" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 26,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 24,
+    "len": 37
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 38,
+    "len": 1125
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 13,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 14,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 31
+  }
+,
+  {
+    "name": "l",
+    "reloff": 32,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 35
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 50
+  }
+,
+  {
+    "name": "l",
+    "reloff": 51,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 47
+  }
+,
+  {
+    "name": "add",
+    "reloff": 25,
+    "len": 22
+  }
+,
+  {
+    "name": "l",
+    "reloff": 23,
+    "len": 40
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 41
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 51
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 51
+  }
+,
+  {
+    "name": "l",
+    "reloff": 52,
+    "len": 49
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 45
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 31
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 31
+  }
+,
+  {
+    "name": "l",
+    "reloff": 32,
+    "len": 49
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 33
+  }
+,
+  {
+    "name": "add",
+    "reloff": 34,
+    "len": 15
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 59
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 59
+  }
+,
+  {
+    "name": "del",
+    "reloff": 29,
+    "len": 14
+  }
+,
+  {
+    "name": "add",
+    "reloff": 15,
+    "len": 14
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 38
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 35
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 36,
+    "len": 620
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 43,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 25,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 43
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "165" },{ "facs": "/corpix/english/harpur/h642/h642d/169" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 44
+  }
+,
+  {
+    "name": "del",
+    "reloff": 39,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 6,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 10,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 40
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 41,
+    "len": 723
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 45,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 51
+  }
+,
+  {
+    "name": "del",
+    "reloff": 42,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 10,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 20,
+    "len": 2
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 49
+  }
+,
+  {
+    "name": "del",
+    "reloff": 19,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 26,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 36
+  }
+,
+  {
+    "name": "del",
+    "reloff": 3,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 2,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 32,
+    "len": 53
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 5
+  }
+,
+  {
+    "name": "del",
+    "reloff": 22,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 53
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "166" },{ "facs": "/corpix/english/harpur/h642/h642d/170" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 17,
+    "len": 7
+  }
+,
+  {
+    "name": "add",
+    "reloff": 8,
+    "len": 14
+  }
+,
+  {
+    "name": "l",
+    "reloff": 29,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 22
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 23,
+    "len": 392
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 17,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 42
+  }
+,
+  {
+    "name": "del",
+    "reloff": 21,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 2
+  }
+,
+  {
+    "name": "l",
+    "reloff": 18,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 28
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 29,
+    "len": 732
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 20,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 52
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "167" },{ "facs": "/corpix/english/harpur/h642/h642d/171" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 33,
+    "len": 6
+  }
+,
+  {
+    "name": "add",
+    "reloff": 7,
+    "len": 6
+  }
+,
+  {
+    "name": "l",
+    "reloff": 13,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 46
+  }
+,
+  {
+    "name": "del",
+    "reloff": 7,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 52
+  }
+,
+  {
+    "name": "del",
+    "reloff": 30,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 51
+  }
+,
+  {
+    "name": "del",
+    "reloff": 26,
+    "len": 9
+  }
+,
+  {
+    "name": "add",
+    "reloff": 10,
+    "len": 10
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 16,
+    "len": 1141
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 36,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 45
+  }
+,
+  {
+    "name": "del",
+    "reloff": 8,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 32
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 42
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "168" },{ "facs": "/corpix/english/harpur/h642/h642d/172" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 34
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 52
+  }
+,
+  {
+    "name": "l",
+    "reloff": 53,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 54
+  }
+,
+  {
+    "name": "del",
+    "reloff": 21,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 29,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 21
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 22,
+    "len": 860
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 19,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 47
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "169" },{ "facs": "/corpix/english/harpur/h642/h642d/173" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 19
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 20,
+    "len": 1039
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 20,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 21,
+    "len": 42
+  }
+,
+  {
+    "name": "del",
+    "reloff": 7,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 36,
+    "len": 46
+  }
+,
+  {
+    "name": "del",
+    "reloff": 4,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 33
+  }
+,
+  {
+    "name": "l",
+    "reloff": 34,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 50
+  }
+,
+  {
+    "name": "l",
+    "reloff": 51,
+    "len": 44
+  }
+,
+  {
+    "name": "del",
+    "reloff": 4,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 37
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "170" },{ "facs": "/corpix/english/harpur/h642/h642d/174" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 7,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 8,
+    "len": 58
+  }
+,
+  {
+    "name": "del",
+    "reloff": 8,
+    "len": 15
+  }
+,
+  {
+    "name": "add",
+    "reloff": 16,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 35,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 46
+  }
+,
+  {
+    "name": "del",
+    "reloff": 6,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 32
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 51
+  }
+,
+  {
+    "name": "del",
+    "reloff": 10,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 42
+  }
+,
+  {
+    "name": "emph",
+    "reloff": 23,
+    "len": 4
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 4,
+    "annotations": [ { "rend": "ul" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 20,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 45
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 46,
+    "len": 224
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 40,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 47
+  }
+,
+  {
+    "name": "del",
+    "reloff": 8,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 41
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 42,
+    "len": 747
+  }
+,
+  {
+    "name": "head",
+    "reloff": 0,
+    "len": 5
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 6,
+    "len": 210
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 32,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 27,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 28,
+    "len": 47
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "171" },{ "facs": "/corpix/english/harpur/h642/h642d/175" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 15,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 28,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 29,
+    "len": 25,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 26,
+    "len": 46
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 47,
+    "len": 260
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 18,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "del",
+    "reloff": 11,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 48
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 49,
+    "len": 240
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 26,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 27,
+    "len": 22,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 23,
+    "len": 53
+  }
+,
+  {
+    "name": "del",
+    "reloff": 29,
+    "len": 5
+  }
+,
+  {
+    "name": "add",
+    "reloff": 6,
+    "len": 4
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 24,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 25,
+    "len": 40
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 41,
+    "len": 28
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 28,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 29,
+    "len": 561
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 46,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "172" },{ "facs": "/corpix/english/harpur/h642/h642d/176" } ]
+  }
+,
+  {
+    "name": "add",
+    "reloff": 31,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 41
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 3
+  }
+,
+  {
+    "name": "del",
+    "reloff": 4,
+    "len": 1
+  }
+,
+  {
+    "name": "add",
+    "reloff": 1,
+    "len": 1
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 39
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 40,
+    "len": 1143
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 43,
+    "annotations": [ { "rend": "indent1" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 52
+  }
+,
+  {
+    "name": "del",
+    "reloff": 39,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 14,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 79
+  }
+,
+  {
+    "name": "del",
+    "reloff": 27,
+    "len": 15
+  }
+,
+  {
+    "name": "add",
+    "reloff": 16,
+    "len": 32
+  }
+,
+  {
+    "name": "del",
+    "reloff": 11,
+    "len": 16
+  }
+,
+  {
+    "name": "l",
+    "reloff": 26,
+    "len": 62
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 21
+  }
+,
+  {
+    "name": "add",
+    "reloff": 22,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 24,
+    "len": 16
+  }
+,
+  {
+    "name": "l",
+    "reloff": 17,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 43
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "173" },{ "facs": "/corpix/english/harpur/h642/h642d/177" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 76
+  }
+,
+  {
+    "name": "del",
+    "reloff": 17,
+    "len": 20
+  }
+,
+  {
+    "name": "add",
+    "reloff": 21,
+    "len": 19
+  }
+,
+  {
+    "name": "del",
+    "reloff": 27,
+    "len": 5
+  }
+,
+  {
+    "name": "add",
+    "reloff": 6,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 6,
+    "len": 57
+  }
+,
+  {
+    "name": "del",
+    "reloff": 10,
+    "len": 6
+  }
+,
+  {
+    "name": "add",
+    "reloff": 7,
+    "len": 11
+  }
+,
+  {
+    "name": "add",
+    "reloff": 28,
+    "len": 1
+  }
+,
+  {
+    "name": "del",
+    "reloff": 2,
+    "len": 10
+  }
+,
+  {
+    "name": "l",
+    "reloff": 11,
+    "len": 58
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 2
+  }
+,
+  {
+    "name": "add",
+    "reloff": 3,
+    "len": 2
+  }
+,
+  {
+    "name": "add",
+    "reloff": 19,
+    "len": 2
+  }
+,
+  {
+    "name": "del",
+    "reloff": 10,
+    "len": 4
+  }
+,
+  {
+    "name": "del",
+    "reloff": 8,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 15,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 50
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 4
+  }
+,
+  {
+    "name": "add",
+    "reloff": 5,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 31
+  }
+,
+  {
+    "name": "l",
+    "reloff": 32,
+    "len": 17
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 18,
+    "len": 2084
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 32,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 76
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 34
+  }
+,
+  {
+    "name": "add",
+    "reloff": 35,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 52
+  }
+,
+  {
+    "name": "del",
+    "reloff": 27,
+    "len": 15
+  }
+,
+  {
+    "name": "add",
+    "reloff": 16,
+    "len": 9
+  }
+,
+  {
+    "name": "l",
+    "reloff": 10,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 62
+  }
+,
+  {
+    "name": "del",
+    "reloff": 22,
+    "len": 9
+  }
+,
+  {
+    "name": "add",
+    "reloff": 10,
+    "len": 6
+  }
+,
+  {
+    "name": "del",
+    "reloff": 15,
+    "len": 10
+  }
+,
+  {
+    "name": "l",
+    "reloff": 16,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 49
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "174" },{ "facs": "/corpix/english/harpur/h642/h642d/178" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 47
+  }
+,
+  {
+    "name": "add",
+    "reloff": 0,
+    "len": 47
+  }
+,
+  {
+    "name": "l",
+    "reloff": 48,
+    "len": 62
+  }
+,
+  {
+    "name": "del",
+    "reloff": 0,
+    "len": 17
+  }
+,
+  {
+    "name": "add",
+    "reloff": 18,
+    "len": 10
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 37
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 56
+  }
+,
+  {
+    "name": "l",
+    "reloff": 57,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 53
+  }
+,
+  {
+    "name": "del",
+    "reloff": 6,
+    "len": 9
+  }
+,
+  {
+    "name": "add",
+    "reloff": 10,
+    "len": 5
+  }
+,
+  {
+    "name": "l",
+    "reloff": 38,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 50
+  }
+,
+  {
+    "name": "del",
+    "reloff": 8,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 3
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 46
+  }
+,
+  {
+    "name": "l",
+    "reloff": 47,
+    "len": 43
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "175" },{ "facs": "/corpix/english/harpur/h642/h642d/179" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 54
+  }
+,
+  {
+    "name": "l",
+    "reloff": 55,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 22
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 23,
+    "len": 975
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 25,
+    "annotations": [ { "type": "F" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 26,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 41
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 45
+  }
+,
+  {
+    "name": "l",
+    "reloff": 46,
+    "len": 48
+  }
+,
+  {
+    "name": "l",
+    "reloff": 49,
+    "len": 49
+  }
+,
+  {
+    "name": "l",
+    "reloff": 50,
+    "len": 55
+  }
+,
+  {
+    "name": "del",
+    "reloff": 26,
+    "len": 10
+  }
+,
+  {
+    "name": "add",
+    "reloff": 11,
+    "len": 8
+  }
+,
+  {
+    "name": "l",
+    "reloff": 19,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 43
+  }
+,
+  {
+    "name": "del",
+    "reloff": 10,
+    "len": 3
+  }
+,
+  {
+    "name": "add",
+    "reloff": 4,
+    "len": 2
+  }
+,
+  {
+    "name": "l",
+    "reloff": 30,
+    "len": 41
+  }
+,
+  {
+    "name": "pb",
+    "reloff": 0,
+    "len": 0,
+    "annotations": [ { "n": "176" },{ "facs": "/corpix/english/harpur/h642/h642d/180" } ]
+  }
+,
+  {
+    "name": "l",
+    "reloff": 42,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 44
+  }
+,
+  {
+    "name": "l",
+    "reloff": 45,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 38
+  }
+,
+  {
+    "name": "l",
+    "reloff": 39,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 43
+  }
+,
+  {
+    "name": "l",
+    "reloff": 44,
+    "len": 36
+  }
+,
+  {
+    "name": "l",
+    "reloff": 37,
+    "len": 39
+  }
+,
+  {
+    "name": "l",
+    "reloff": 40,
+    "len": 40
+  }
+,
+  {
+    "name": "l",
+    "reloff": 41,
+    "len": 42
+  }
+,
+  {
+    "name": "note",
+    "reloff": 43,
+    "len": 833,
+    "annotations": [ { "resp": "MJS" } ]
+  }
+,
+  {
+    "name": "p",
+    "reloff": 0,
+    "len": 166
+  }
+,
+  {
+    "name": "ref",
+    "reloff": 102,
+    "len": 3,
+    "annotations": [ { "target": "/corpix/english/harpur/h642/h642d/154" } ]
+  }
+,
+  {
+    "name": "lg",
+    "reloff": 65,
+    "len": 93
+  }
+,
+  {
+    "name": "l",
+    "reloff": 0,
+    "len": 32
+  }
+,
+  {
+    "name": "l",
+    "reloff": 33,
+    "len": 42
+  }
+,
+  {
+    "name": "l",
+    "reloff": 43,
+    "len": 17
+  }
+,
+  {
+    "name": "p",
+    "reloff": 18,
+    "len": 178
+  }
+,
+  {
+    "name": "ref",
+    "reloff": 6,
+    "len": 3,
+    "annotations": [ { "target": "/corpix/english/harpur/h642/h642d/157" } ]
+  }
+,
+  {
+    "name": "ref",
+    "reloff": 152,
+    "len": 18,
+    "annotations": [ { "target": "H642e" } ]
+  }
+,
+  {
+    "name": "hi",
+    "reloff": 0,
+    "len": 18,
+    "annotations": [ { "rend": "it" } ]
+  }
+,
+  {
+    "name": "p",
+    "reloff": 21,
+    "len": 393
+  }
+,
+  {
+    "name": "ref",
+    "reloff": 6,
+    "len": 3,
+    "annotations": [ { "target": "/corpix/english/harpur/h642/h642d/168" } ]
+  }
+  ]
+}
