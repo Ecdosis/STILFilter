@@ -72,7 +72,7 @@ the table.json document for Harpur (but you would need to define your
 own if you used this technique in your filter) into a String suitable 
 for inclusion into a Java program. Invoke it thus:
 
-java JSCompactor.jar table.json. 
+java JSCompactor.jar table.json
 
 Copy the result fromt he terminal. it screws up the end a bit but it is 
 usable.
