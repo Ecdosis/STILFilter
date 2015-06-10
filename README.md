@@ -16,9 +16,9 @@ markup using the simplified MML (minimal markup languages) editor (see
 MML project), it is necessary to convert the raw XML property names and 
 annotations into simple property names. So hi rend="it" becomes 
 "italics". This can then be attached to an MML markup tag such as 
-"**" and we can produce the "italics" property in the editor by 
-typing **word** to make "word" italics. This greatly simplies 
-transcription. No more angle-brackets!!
+"\*" and we can produce the "italics" property in the editor by 
+typing \*word\* to make "word" italics. This greatly 
+simplies transcription. No more angle-brackets!!
 
 However, to make this work, a filter needs to be defined, one per 
 project at least, which will be defined with the package name 
