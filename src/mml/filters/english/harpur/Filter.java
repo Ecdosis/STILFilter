@@ -34,61 +34,61 @@ import java.io.File;
 public class Filter implements mml.filters.Filter
 {
     /** specifies how to deal with simple property names and attributes */
-    // source in table.json. convert with JSCompacter
+    // source in table-harpur.json. convert with JSCompacter
     static String table = 
-    "{ [{\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"t"
-    +"itlepage\"},\"to\":\"titlepage\"}, {\"from\":{\"name\":\"div"
-    +"\",\"key\":\"type\",\"value\":\"dedication\"},\"to\":\"dedic"
-    +"ation\"}, {\"from\":{\"name\":\"div\",\"key\":\"type\",\"val"
-    +"ue\":\"poempart\"},\"to\":\"poempart\"}, {\"from\":{\"name\""
-    +":\"div\",\"key\":\"type\",\"value\":\"song\"},\"to\":\"song\""
-    +"}, {\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\""
-    +"colophon\"},\"to\":\"colophon\"}, {\"from\":{\"name\":\"hea"
-    +"d\",\"key\":\"type\",\"value\":\"title\"},\"to\":\"title\"},"
-    +" {\"from\":{\"name\":\"head\",\"key\":\"type\",\"value\":\"s"
-    +"ubtitle\"},\"to\":\"subtitle\"}, {\"from\":{\"name\":\"head\""
-    +",\"key\":\"type\",\"value\":\"parthead\"},\"to\":\"parthead"
-    +"\"}, {\"from\":{\"name\":\"head\"},\"to\":\"head\"}, {\"from"
-    +"\":{\"name\":\"lg\"},\"to\":\"stanza\"}, {\"from\":{\"name\""
-    +":\"p\"},\"to\":\"para\"}, {\"from\":{\"name\":\"trailer\"},\""
-    +"to\":\"trailer\"}, {\"from\":{\"name\":\"fw\"},\"to\":\"fir"
-    +"stword\"}, {\"from\":{\"name\":\"q\"},\"to\":\"quote\"}, {\""
-    +"from\":{\"name\":\"l\"},\"to\":\"line\"}, {\"from\":{\"name\""
-    +":\"line\",\"key\":\"rend\",\"value\":\"indent1\"},\"to\":\""
-    +"line-indent1\"}, {\"from\":{\"name\":\"line\",\"key\":\"rend"
-    +"\",\"value\":\"indent2\"},\"to\":\"line-indent2\"}, {\"from\""
-    +":{\"name\":\"line\",\"key\":\"rend\",\"value\":\"indent3\"}"
-    +",\"to\":\"line-indent3\"}, {\"from\":{\"name\":\"line\",\"ke"
-    +"y\":\"rend\",\"value\":\"indent4\"},\"to\":\"line-indent4\"}"
-    +", {\"from\":{\"name\":\"line\",\"key\":\"rend\",\"value\":\""
-    +"indent5\"},\"to\":\"line-indent5\"}, {\"from\":{\"name\":\"l"
-    +"ine\",\"key\":\"part\",\"value\":\"F\"},\"to\":\"line-final\""
-    +"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\""
-    +"ul\"},\"to\":\"underlined\"}, {\"from\":{\"name\":\"hi\",\"k"
-    +"ey\":\"rend\",\"value\":\"sc\"},\"to\":\"smallcaps\"}, {\"fr"
-    +"om\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"b\"},\"to"
-    +"\":\"bold\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\""
-    +"value\":\"it\"},\"to\":\"italics\"}, {\"from\":{\"name\":\"h"
-    +"i\",\"key\":\"rend\",\"value\":\"dul\"},\"to\":\"superscript"
-    +"\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\""
-    +"ss\"},\"to\":\"underlined\"}, {\"from\":{\"name\":\"hi\",\""
-    +"key\":\"rend\",\"value\":\"erasure\"},\"to\":\"erased\"}, {\""
-    +"from\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"bl\"},"
-    +"\"to\":\"black-letter\"}, {\"from\":{\"name\":\"hi\",\"key\""
-    +":\"rend\",\"value\":\"pencil\"},\"to\":\"pencil\"}, {\"from\""
-    +":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"del-pencil\""
-    +"},\"to\":\"del-pencil\"}, {\"from\":{\"name\":\"emph\"},\"to"
-    +"\":\"emphasis\"}, {\"from\":{\"name\":\"unclear\"},\"to\":\""
-    +"unclear\"}, {\"from\":{\"name\":\"expan\"},\"to\":\"expanded"
-    +"\"}, {\"from\":{\"name\":\"metamark\"},\"to\":\"metamark\"},"
-    +" {\"from\":{\"name\":\"author\"},\"to\":\"author\"}, {\"from"
-    +"\":{\"name\":\"date\"},\"to\":\"date\"}, {\"from\":{\"name\""
-    +":\"sic\"},\"to\":\"sic\"}, {\"from\":{\"name\":\"divider\",\""
-    +"key\":\"type\",\"value\":\"single\"},\"to\":\"divider-singl"
-    +"e\"}, {\"from\":{\"name\":\"divider\",\"key\":\"type\",\"val"
-    +"ue\":\"diamond\"},\"to\":\"divider-diamond\"}, {\"from\":{\""
-    +"name\":\"divider\",\"key\":\"type\",\"value\":\"double\"},\""
-    +"to\":\"divider-double\"}] } \n";
+    "[{\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"tit"
+    +"lepage\"},\"to\":\"titlepage\"}, {\"from\":{\"name\":\"div\""
+    +",\"key\":\"type\",\"value\":\"dedication\"},\"to\":\"dedicat"
+    +"ion\"}, {\"from\":{\"name\":\"div\",\"key\":\"type\",\"value"
+    +"\":\"poempart\"},\"to\":\"poempart\"}, {\"from\":{\"name\":\""
+    +"div\",\"key\":\"type\",\"value\":\"song\"},\"to\":\"song\"}"
+    +", {\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"c"
+    +"olophon\"},\"to\":\"colophon\"}, {\"from\":{\"name\":\"head\""
+    +",\"key\":\"type\",\"value\":\"title\"},\"to\":\"title\"}, {"
+    +"\"from\":{\"name\":\"head\",\"key\":\"type\",\"value\":\"sub"
+    +"title\"},\"to\":\"subtitle\"}, {\"from\":{\"name\":\"head\","
+    +"\"key\":\"type\",\"value\":\"parthead\"},\"to\":\"parthead\""
+    +"}, {\"from\":{\"name\":\"head\"},\"to\":\"head\"}, {\"from\""
+    +":{\"name\":\"lg\"},\"to\":\"stanza\"}, {\"from\":{\"name\":\""
+    +"p\"},\"to\":\"para\"}, {\"from\":{\"name\":\"trailer\"},\"t"
+    +"o\":\"trailer\"}, {\"from\":{\"name\":\"fw\"},\"to\":\"first"
+    +"word\"}, {\"from\":{\"name\":\"q\"},\"to\":\"quote1\"}, {\"f"
+    +"rom\":{\"name\":\"l\"},\"to\":\"line\"}, {\"from\":{\"name\""
+    +":\"l\",\"key\":\"rend\",\"value\":\"indent1\"},\"to\":\"line"
+    +"-indent1\"}, {\"from\":{\"name\":\"l\",\"key\":\"rend\",\"va"
+    +"lue\":\"indent2\"},\"to\":\"line-indent2\"}, {\"from\":{\"na"
+    +"me\":\"l\",\"key\":\"rend\",\"value\":\"indent3\"},\"to\":\""
+    +"line-indent3\"}, {\"from\":{\"name\":\"l\",\"key\":\"rend\","
+    +"\"value\":\"indent4\"},\"to\":\"line-indent4\"}, {\"from\":{"
+    +"\"name\":\"l\",\"key\":\"rend\",\"value\":\"indent5\"},\"to\""
+    +":\"line-indent5\"}, {\"from\":{\"name\":\"l\",\"key\":\"par"
+    +"t\",\"value\":\"F\"},\"to\":\"line-final\"}, {\"from\":{\"na"
+    +"me\":\"hi\",\"key\":\"rend\",\"value\":\"ul\"},\"to\":\"unde"
+    +"rlined\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"val"
+    +"ue\":\"sc\"},\"to\":\"smallcaps\"}, {\"from\":{\"name\":\"hi"
+    +"\",\"key\":\"rend\",\"value\":\"b\"},\"to\":\"bold\"}, {\"fr"
+    +"om\":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"it\"},\"t"
+    +"o\":\"italics\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\""
+    +",\"value\":\"dul\"},\"to\":\"double-underlined\"}, {\"from\""
+    +":{\"name\":\"hi\",\"key\":\"rend\",\"value\":\"ss\"},\"to\""
+    +":\"superscript\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend"
+    +"\",\"value\":\"erasure\"},\"to\":\"erased\"}, {\"from\":{\"n"
+    +"ame\":\"hi\",\"key\":\"rend\",\"value\":\"bl\"},\"to\":\"bla"
+    +"ck-letter\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\""
+    +"value\":\"pencil\"},\"to\":\"pencil\"}, {\"from\":{\"name\":"
+    +"\"hi\",\"key\":\"rend\",\"value\":\"del-pencil\"},\"to\":\"d"
+    +"el-pencil\"}, {\"from\":{\"name\":\"emph\"},\"to\":\"emphasi"
+    +"s\"}, {\"from\":{\"name\":\"unclear\"},\"to\":\"unclear\"}, "
+    +"{\"from\":{\"name\":\"expan\"},\"to\":\"expanded\"}, {\"from"
+    +"\":{\"name\":\"metamark\"},\"to\":\"metamark\"}, {\"from\":{"
+    +"\"name\":\"author\"},\"to\":\"author\"}, {\"from\":{\"name\""
+    +":\"date\"},\"to\":\"date\"}, {\"from\":{\"name\":\"sic\"},\""
+    +"to\":\"sic\"}, {\"from\":{\"name\":\"divider\",\"key\":\"typ"
+    +"e\",\"value\":\"single\"},\"to\":\"divider-single\"}, {\"fro"
+    +"m\":{\"name\":\"divider\",\"key\":\"type\",\"value\":\"diamo"
+    +"nd\"},\"to\":\"divider-diamond\"}, {\"from\":{\"name\":\"div"
+    +"ider\",\"key\":\"type\",\"value\":\"double\"},\"to\":\"divid"
+    +"er-double\"}]\n";
     /** the quick lookup map */
     static HashMap<String,ArrayList> map;
     /**
@@ -218,24 +218,46 @@ public class Filter implements mml.filters.Filter
     }
     /**
      * Append some data from the source text to the modified text
-     * @param text the original text byte array
+     * @param text the original text 
      * @param from the offset in text to copy from
-     * @param len the length of the copied text in bytes
-     * @throws Exception 
+     * @param len the length of the copied text in characters
      */
-    private void appendToText(byte[] text, int from, int len) throws Exception
+    private void appendToText(String text, int from, int len)
     {
-        byte[] chunk = new byte[len];
-        System.arraycopy(text,from,chunk,0,chunk.length);
-        sb.append(new String(chunk,"UTF-8") );
+        sb.append(text.substring(from,from+len));
+    }
+    /**
+     * Clean a range in situ
+     * @param range the range to clean
+     */
+    private void cleanRange( JSONObject range )
+    {
+        JSONArray annotations = (JSONArray) range.get("annotations");
+        if ( annotations != null )
+        {
+            int removal = -1;
+            for ( int i=0;i<annotations.size();i++)
+            {
+                JSONObject ann = (JSONObject)annotations.get(i);
+                if ( ann.containsKey("_done")  )
+                {
+                    removal = i;
+                    break;
+                }
+            }
+            if ( removal != -1 )
+                annotations.remove(removal);
+            if ( annotations.size()==0 )
+                range.remove("annotations");
+        }
     }
     /**
      * Translate raw STIL from XML into STIL for the Harpur MML format
-     * @param stil the raw XML STIL (JSON)
-     * @param text the text it points to as a byte array
+     * @param stil the raw XML STIL (JSON) with character offsets
+     * @param text the text it points to as a String
      * @return the new STIL standoff markup for the new text
      */
-    public JSONObject translate( JSONObject stil, byte[] text ) throws Exception
+    public JSONObject translate( JSONObject stil, String text ) throws Exception
     {
         JSONObject dest = new JSONObject();
         dest.put( "style", stil.get("style") );
@@ -243,64 +265,91 @@ public class Filter implements mml.filters.Filter
         dest.put("ranges",destRanges);
         int pos = 0;
         int lastReadPos = 0;
+//        if ( !verifyCorCode(stil.toJSONString(),text) )
+//            System.out.println("corcode is invalid BEFORE conversion");
         for ( Object r : ranges )
         {
             JSONObject range = (JSONObject)r;
+            cleanRange(range);
             pos += ((Long)range.get("reloff")).intValue();
             String rName = (String)range.get("name");
             if ( map.containsKey(rName) )
             {
                 ArrayList list = (ArrayList) map.get(rName);
-                    for ( int i=0;i<list.size();i++ )
+                for ( int i=0;i<list.size();i++ )
+                {
+                    JSONObject entry = (JSONObject)list.get(i);
+                    JSONObject from = (JSONObject)entry.get("from");
+                    if ( from.containsKey("key") )
                     {
-                        JSONObject entry = (JSONObject)list.get(i);
-                        JSONObject from = (JSONObject)entry.get("from");
-                        if ( from.containsKey("key") )
+                        String attrKey = (String)from.get("key");
+                        String attrValue = (String)from.get("value");
+                        if ( range.containsKey("annotations") )
                         {
-                            String attrKey = (String)from.get("key");
-                            String attrValue = (String)from.get("value");
-                            if ( range.containsKey("annotations") )
-                            {
-                                if ( rangeHasAnnotation(range,attrKey,attrValue) )
-                                {
-                                    transferRange( range, (String)entry.get("to") );
-                                }
-                            }
-                            else if ( listHasBareTag(list,rName) )
+                            if ( rangeHasAnnotation(range,attrKey,attrValue) )
                             {
                                 transferRange( range, (String)entry.get("to") );
+                                break;
                             }
                         }
+                        else if ( listHasBareTag(list,rName) )
+                        {
+                            transferRange( range, (String)entry.get("to") );
+                            break;
+                        }
+                    }
+                    else if ( listHasBareTag(list,rName) )
+                    {
+                        transferRange( range, (String)entry.get("to") );
+                        break;
                     }
                 }
-                else if ( rName.equals("pb") )
-                {
-                    JSONObject newRange = new JSONObject();
-                    newRange.put("name","page");
-                    int loc = ((Long)range.get("reloff")).intValue();
-                    loc += offset;
-                    offset = 0;
-                    newRange.put("reloff",loc);
-                    JSONArray annotations = (JSONArray) range.get("annotations");
-                    String ref = getPageRef(annotations);
-                    appendToText( text, lastReadPos, pos-lastReadPos );
-                    lastReadPos = pos;
-                    // ensure that ref is on a line by itself
-                    if ( sb.charAt(sb.length()-1) != '\n' )
-                        ref = "\n"+ref;
-                    if ( text[pos] != (byte)'\n' )
-                        ref += "\n";
-                    sb.append(ref);
-                    newRange.put("len",ref.length());
-                    destRanges.add(newRange);
-                    offset = ref.length();
-                }
-                else
-                    System.out.println("Unknown property "+rName+" ignored");
             }
-            if ( lastReadPos < text.length )
+            else if ( rName.equals("pb") )
+            {
+                JSONObject newRange = new JSONObject();
+                newRange.put("name","page");
+                int loc = ((Long)range.get("reloff")).intValue();
+                loc += offset;
+                offset = 0;
+                newRange.put("reloff",loc);
+                JSONArray annotations = (JSONArray) range.get("annotations");
+                String ref = getPageRef(annotations);
                 appendToText( text, lastReadPos, pos-lastReadPos );
-            return dest;
+                lastReadPos = pos;
+                // ensure that ref is on a line by itself
+                if ( sb.length()>0 && sb.charAt(sb.length()-1) != '\n' )
+                    ref = "\n"+ref;
+                if ( text.charAt(pos) != '\n' )
+                    ref += "\n";
+                sb.append(ref);
+                newRange.put("len",ref.length());
+                destRanges.add(newRange);
+                offset = ref.length();
+            }
+            else
+                System.out.println("Unknown property "+rName+" ignored");
+        }
+        if ( lastReadPos < text.length() )
+            appendToText( text, lastReadPos, pos-lastReadPos );
+//        if ( !verifyCorCode(dest.toJSONString(),text) )
+//            System.out.println("corcode is invalid AFTER conversion");
+        return dest;
+    }
+    boolean verifyCorCode(String stil, String text )
+    {
+        JSONObject jObj = (JSONObject)JSONValue.parse(stil);
+        JSONArray ranges = (JSONArray)jObj.get("ranges");
+        int offset = 0;
+        for ( int i=0;i<ranges.size();i++ )
+        {
+            JSONObject range = (JSONObject)ranges.get(i);
+            offset += ((Number)range.get("reloff")).intValue();
+            int len = ((Number)range.get("len")).intValue();
+            if ( offset+len > text.length() )
+                return false;
+        }
+        return true;
     }
     /**
      * Append something to the file name before the extension
@@ -357,7 +406,7 @@ public class Filter implements mml.filters.Filter
                 body.read(data2);
                 Filter f = new Filter();
                 JSONObject markup = (JSONObject)JSONValue.parse(new String(data1,"UTF-8"));
-                JSONObject res = f.translate( markup, data2 );
+                JSONObject res = f.translate( markup, new String(data2,"UTF-8") );
                 writeOut( args[0], res.toJSONString() );
                 writeOut( args[1], f.getText() );
             }
