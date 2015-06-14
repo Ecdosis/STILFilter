@@ -318,7 +318,7 @@ public class Filter implements mml.filters.Filter
                         {
                             if ( rangeHasAnnotation(range,attrKey,attrValue) )
                             {
-                                transferRange( range, (String)getBareEntry(list).get("to") );
+                                transferRange( range, (String)entry.get("to") );
                                 break;
                             }
                         }
@@ -330,7 +330,7 @@ public class Filter implements mml.filters.Filter
                     }
                     else if ( listHasBareTag(list) )
                     {
-                        transferRange( range, (String)entry.get("to") );
+                        transferRange( range, (String)getBareEntry(list).get("to") );
                         break;
                     }
                 }
