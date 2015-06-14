@@ -22,6 +22,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONValue;
 import java.util.HashMap;
+import java.util.Stack;
 import java.util.ArrayList;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -202,7 +203,8 @@ public class Filter implements mml.filters.Filter
     private void transferRange( JSONObject range, String newName )
     {
         JSONObject newRange = new JSONObject();
-        int loc = ((Long)range.get("reloff")).intValue();
+        int loc = ((Number)range.get("reloff")).intValue();
+        range.put("new",newRange);
         newRange.put( "name", newName );
         newRange.put( "reloff", loc);
         newRange.put("len", range.get("len") );
@@ -253,6 +255,7 @@ public class Filter implements mml.filters.Filter
     public JSONObject translate( JSONObject stil, String text ) throws Exception
     {
         JSONObject dest = new JSONObject();
+        Stack<JSONObject> stack = new Stack<JSONObject>();
         dest.put( "style", stil.get("style") );
         JSONArray ranges = (JSONArray) stil.get("ranges");
         dest.put("ranges",destRanges);
@@ -260,7 +263,7 @@ public class Filter implements mml.filters.Filter
         int nextOff = 0;
         int lastReadPos = 0;
 //        if ( !verifyCorCode(stil.toJSONString(),text) )
-//            System.out.println("corcode is invalid BEFORE conversion");
+//            System.out.println("corcode is invalid BEFORE STILFilter conversion");
         for ( Object r : ranges )
         {
             JSONObject range = (JSONObject)r;
@@ -271,7 +274,19 @@ public class Filter implements mml.filters.Filter
                 range.put("reloff",nextOff);
                 nextOff = 0;
             }
-            pos += ((Long)range.get("reloff")).intValue();
+            pos += ((Number)range.get("reloff")).intValue();
+            // maintain a stack of currently overlapping ranges
+            while ( !stack.isEmpty() 
+                && ((Number)stack.peek().get("tagEnd")).intValue()<=pos )
+            {
+                stack.pop();
+            }
+            if ( ((Number)range.get("len")).intValue() > 0 )
+            {
+                range.put("tagEnd",((Number)range.get("len")).intValue()+pos);
+                stack.push(range);
+            }
+            // now look at the range name and decide what to do...
             String rName = (String)range.get("name");
             if ( map.containsKey(rName) )
             {
@@ -319,15 +334,28 @@ public class Filter implements mml.filters.Filter
                     ref = "\n"+ref;
                 if ( text.charAt(pos) != '\n' )
                     ref += "\n";
-                newRange.put("len",ref.length());
                 if ( destRanges.size()>0 )
                 {
                     // our reloff and length are always 0 so we can
-                    // just insert ourself before last output range
+                    // just swap ourself with the last output range
                     JSONObject lastRange = destRanges.get(destRanges.size()-1);
                     newRange.put("reloff",lastRange.get("reloff"));
                     lastRange.put("reloff",ref.length());
                     destRanges.add(destRanges.size()-1,newRange);
+                    // lengthen overlapping ranges on stack
+                    for ( JSONObject r2 : stack )
+                    {
+                        // the stack is a stack of OLD ranges
+                        // get the new range built from r2 and update THAT
+                        JSONObject nr = (JSONObject)r2.get("new");
+                        if ( nr != null && nr != lastRange )
+                        {
+                            int oldLen = ((Number)nr.get("len")).intValue();
+                            nr.put("len",oldLen+ref.length());
+                        }
+                        // we swapped pg with the last range so no overlap
+                    }
+                    newRange.put("len",ref.length());
                 }
                 else
                 {
@@ -341,9 +369,9 @@ public class Filter implements mml.filters.Filter
                 System.out.println("Unknown property "+rName+" ignored");
         }
         if ( lastReadPos < text.length() )
-            appendToText( text, lastReadPos, pos-lastReadPos );
-//        if ( !verifyCorCode(dest.toJSONString(),text) )
-//            System.out.println("corcode is invalid AFTER conversion");
+            appendToText( text, lastReadPos, text.length()-lastReadPos );
+//        if ( !verifyCorCode(dest.toJSONString(),sb.toString()) )
+//            System.out.println("corcode is invalid AFTER STILFilter conversion");
         return dest;
     }
     boolean verifyCorCode(String stil, String text )
@@ -357,7 +385,10 @@ public class Filter implements mml.filters.Filter
             offset += ((Number)range.get("reloff")).intValue();
             int len = ((Number)range.get("len")).intValue();
             if ( offset+len > text.length() )
+            {
+                System.out.println(" offset+len="+(offset+len)+" text.length()="+text.length());
                 return false;
+            }
         }
         return true;
     }
