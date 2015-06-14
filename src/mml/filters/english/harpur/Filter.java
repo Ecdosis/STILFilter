@@ -149,10 +149,9 @@ public class Filter implements mml.filters.Filter
     /**
      * Can the named range take no attributes?
      * @param list the list of property and attribute combinations
-     * @param rName the name of the range e.g. "div"
      * @return true if there is at least one definition with no attributes
      */
-    private boolean listHasBareTag( ArrayList<JSONObject> list, String rName )
+    private boolean listHasBareTag( ArrayList<JSONObject> list )
     {
         for ( int i=0;i<list.size();i++ )
         {
@@ -162,6 +161,22 @@ public class Filter implements mml.filters.Filter
                 return true;
         }
         return false;
+    }
+    /**
+     * Get the entry without attributes
+     * @param list the list to get it from
+     * @return the entry or null if not found
+     */
+    JSONObject getBareEntry( ArrayList<JSONObject> list )
+    {
+        for ( int i=0;i<list.size();i++ )
+        {
+            JSONObject jObj = list.get(i);
+            JSONObject from = (JSONObject) jObj.get("from");
+            if ( !from.containsKey("key") )
+                return jObj;
+        }
+        return null;
     }
     /**
      * Get the modified text
@@ -303,17 +318,17 @@ public class Filter implements mml.filters.Filter
                         {
                             if ( rangeHasAnnotation(range,attrKey,attrValue) )
                             {
-                                transferRange( range, (String)entry.get("to") );
+                                transferRange( range, (String)getBareEntry(list).get("to") );
                                 break;
                             }
                         }
-                        else if ( listHasBareTag(list,rName) )
+                        else if ( listHasBareTag(list) )
                         {
-                            transferRange( range, (String)entry.get("to") );
+                            transferRange( range, (String)getBareEntry(list).get("to") );
                             break;
                         }
                     }
-                    else if ( listHasBareTag(list,rName) )
+                    else if ( listHasBareTag(list) )
                     {
                         transferRange( range, (String)entry.get("to") );
                         break;
