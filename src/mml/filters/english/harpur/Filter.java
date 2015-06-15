@@ -45,11 +45,11 @@ public class Filter implements mml.filters.Filter
     +"div\",\"key\":\"type\",\"value\":\"song\"},\"to\":\"song\"}"
     +", {\"from\":{\"name\":\"div\",\"key\":\"type\",\"value\":\"c"
     +"olophon\"},\"to\":\"colophon\"}, {\"from\":{\"name\":\"head\""
-    +",\"key\":\"type\",\"value\":\"title\"},\"to\":\"title\"}, {"
-    +"\"from\":{\"name\":\"head\",\"key\":\"type\",\"value\":\"sub"
-    +"title\"},\"to\":\"subtitle\"}, {\"from\":{\"name\":\"head\","
-    +"\"key\":\"type\",\"value\":\"parthead\"},\"to\":\"parthead\""
-    +"}, {\"from\":{\"name\":\"head\"},\"to\":\"head\"}, {\"from\""
+    +"},\"to\":\"head\"}, {\"from\":{\"name\":\"head\",\"key\":\""
+    +"type\",\"value\":\"title\"},\"to\":\"title\"}, {\"from\":{\""
+    +"name\":\"head\",\"key\":\"type\",\"value\":\"subtitle\"},\"t"
+    +"o\":\"subtitle\"}, {\"from\":{\"name\":\"head\",\"key\":\"ty"
+    +"pe\",\"value\":\"parthead\"},\"to\":\"parthead\"}, {\"from\""
     +":{\"name\":\"lg\"},\"to\":\"stanza\"}, {\"from\":{\"name\":\""
     +"p\"},\"to\":\"para\"}, {\"from\":{\"name\":\"trailer\"},\"t"
     +"o\":\"trailer\"}, {\"from\":{\"name\":\"fw\"},\"to\":\"first"
@@ -62,8 +62,8 @@ public class Filter implements mml.filters.Filter
     +"line-indent3\"}, {\"from\":{\"name\":\"l\",\"key\":\"rend\","
     +"\"value\":\"indent4\"},\"to\":\"line-indent4\"}, {\"from\":{"
     +"\"name\":\"l\",\"key\":\"rend\",\"value\":\"indent5\"},\"to\""
-    +":\"line-indent5\"}, {\"from\":{\"name\":\"l\",\"key\":\"par"
-    +"t\",\"value\":\"F\"},\"to\":\"line-final\"}, {\"from\":{\"na"
+    +":\"line-indent5\"}, {\"from\":{\"name\":\"l\",\"key\":\"typ"
+    +"e\",\"value\":\"F\"},\"to\":\"line-final\"}, {\"from\":{\"na"
     +"me\":\"hi\",\"key\":\"rend\",\"value\":\"ul\"},\"to\":\"unde"
     +"rlined\"}, {\"from\":{\"name\":\"hi\",\"key\":\"rend\",\"val"
     +"ue\":\"sc\"},\"to\":\"smallcaps\"}, {\"from\":{\"name\":\"hi"
@@ -306,33 +306,35 @@ public class Filter implements mml.filters.Filter
             if ( map.containsKey(rName) )
             {
                 ArrayList list = (ArrayList) map.get(rName);
-                for ( int i=0;i<list.size();i++ )
+                if ( !range.containsKey("annotations") )
                 {
-                    JSONObject entry = (JSONObject)list.get(i);
-                    JSONObject from = (JSONObject)entry.get("from");
-                    if ( from.containsKey("key") )
+                    if ( listHasBareTag(list) )
+                        transferRange( range, (String)getBareEntry(list).get("to") );
+                }
+                else
+                {
+                    boolean matched = false;
+                    for ( int i=0;i<list.size();i++ )
                     {
-                        String attrKey = (String)from.get("key");
-                        String attrValue = (String)from.get("value");
-                        if ( range.containsKey("annotations") )
+                        JSONObject entry = (JSONObject)list.get(i);
+                        JSONObject from = (JSONObject)entry.get("from");
+                        if ( from.containsKey("key") )
                         {
+                            String attrKey = (String)from.get("key");
+                            String attrValue = (String)from.get("value");
                             if ( rangeHasAnnotation(range,attrKey,attrValue) )
                             {
                                 transferRange( range, (String)entry.get("to") );
+                                matched = true;
                                 break;
                             }
                         }
-                        else if ( listHasBareTag(list) )
-                        {
-                            transferRange( range, (String)getBareEntry(list).get("to") );
-                            break;
-                        }
                     }
-                    else if ( listHasBareTag(list) )
-                    {
+                    // in case attribute was wrong
+                    if ( !matched && listHasBareTag(list) )
                         transferRange( range, (String)getBareEntry(list).get("to") );
-                        break;
-                    }
+                    else
+                        System.out.println("Couldn't match "+rName);
                 }
             }
             else if ( rName.equals("pb") )
