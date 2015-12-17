@@ -108,10 +108,14 @@ public abstract class Filter {
         int lastReadPos = 0;
 //        if ( !verifyCorCode(stil.toJSONString(),text) )
 //            System.out.println("corcode is invalid BEFORE STILFilter conversion");
+        int count = 0;
         for ( Object r : ranges )
         {
             JSONObject range = (JSONObject)r;
             cleanRange(range);
+            count++;
+            if ( count % 100 ==0 )
+                System.out.println("count="+count);
             pos += ((Number)range.get("reloff")).intValue();
             // maintain a stack of currently overlapping ranges
             while ( !stack.isEmpty() 
@@ -158,14 +162,17 @@ public abstract class Filter {
                         }
                     }
                     // in case attribute was wrong
-                    if ( !matched && listHasBareTag(list) )
+                    if ( !matched )
                     {
-                        transferRange( range, 
-                            (String)getBareEntry(list).get("to"), nextOff );
-                        nextOff = 0;
+                        if ( listHasBareTag(list) )
+                        {
+                            transferRange( range, 
+                                (String)getBareEntry(list).get("to"), nextOff );
+                            nextOff = 0;
+                        }
+                        else
+                            System.out.println("Couldn't match "+rName);
                     }
-                    else
-                        System.out.println("Couldn't match "+rName);
                 }
                 nextOff = 0;
             }
@@ -181,7 +188,8 @@ public abstract class Filter {
                 // ensure that ref is on a line by itself
                 if ( sb.length()>0 && sb.charAt(sb.length()-1) != '\n' )
                     ref = "\n"+ref;
-                if ( text.charAt(pos) != '\n' )
+                // pb could be at end of text
+                if ( pos < text.length() && text.charAt(pos) != '\n' )
                     ref += "\n";
                 // insert the pageref into the text and adjust ranges
                 if ( destRanges.size()>0 )

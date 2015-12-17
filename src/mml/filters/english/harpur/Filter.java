@@ -93,6 +93,20 @@ public class Filter extends mml.filters.Filter
         +"er-double\"}]\n";
         initMap();
     }
+    private String cleanRef( String ref )
+    {
+        // remove trailing file type
+        int index = ref.indexOf(".");
+        if ( index > 0 )
+            ref = ref.substring(0,index);
+        // remove leading 0s
+        int j = 0;for ( int i=0;i<ref.length();i++ )
+            if ( ref.charAt(i)=='0' )
+                j++;
+        if ( j > 0 )
+            ref = ref.substring(j);
+        return ref;
+    }
     /**
      * Extract the page reference from a pb range
      * @param annotations the annotations of the pb range (maybe n as well)
@@ -105,7 +119,13 @@ public class Filter extends mml.filters.Filter
         for ( int i=0;i<annotations.size();i++ )
         {
             JSONObject attr = (JSONObject)annotations.get(i);
-            if ( attr.containsKey("facs") )
+            if ( attr.containsKey("n") )
+            {
+                ref = (String)attr.get("n");
+                // n overrides facs
+                break;
+            }
+            else if ( attr.containsKey("facs") && ref.length()==0 )
             {
                 String value = (String)attr.get("facs");
                 int index = value.lastIndexOf("/");
@@ -113,7 +133,7 @@ public class Filter extends mml.filters.Filter
                     ref = value.substring(index+1);
                 else
                     ref = value;
-                break;
+                ref = cleanRef(ref);
             }
         }
         return ref;
