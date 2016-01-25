@@ -114,8 +114,8 @@ public abstract class Filter {
             JSONObject range = (JSONObject)r;
             cleanRange(range);
             count++;
-            if ( count % 100 ==0 )
-                System.out.println("count="+count);
+//            if ( count % 100 ==0 )
+//                System.out.println("count="+count);
             pos += ((Number)range.get("reloff")).intValue();
             // maintain a stack of currently overlapping ranges
             while ( !stack.isEmpty() 
@@ -330,6 +330,7 @@ public abstract class Filter {
         JSONObject newRange = new JSONObject();
         int loc = ((Number)range.get("reloff")).intValue();
         // stuff a copy of the new range in the old range
+        System.out.println("transferring range "+range.get("name")+" to "+newName);
         range.put("new",newRange);
         newRange.put( "name", newName );
         newRange.put( "reloff", loc+adjust);
